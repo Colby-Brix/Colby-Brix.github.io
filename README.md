@@ -39,10 +39,8 @@
 <body>
     <div class="header">
         <h1>The Urban Legend Band</h1>
-        <p>The best band in the world!</p>
     </div>
     <div class="content">
-        <img src="your-image.jpg" alt="Band Photo" width="300" />
         <h2>Contact Us</h2>
         <p>Email: info@theurbanlegend.band</p>
         <p>Follow us on:</p>
