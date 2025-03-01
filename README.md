@@ -67,7 +67,6 @@
     <nav>
         <a href="#about">About</a>
         <a href="#music">Music</a>
-        <a href="#tour">Tour</a>
         <a href="#contact">Contact</a>
     </nav>
     <div class="content">
@@ -78,10 +77,6 @@
         <section id="music">
             <h2>Our Music</h2>
             <p>Check out our latest tracks and albums. We promise you won't be disappointed!</p>
-        </section>
-        <section id="tour">
-            <h2>Tour Dates</h2>
-            <p>Catch us live in a city near you. Stay tuned for our upcoming tour dates!</p>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
