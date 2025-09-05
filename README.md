@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Urban Legend – Music Videos</title>
+  <title>The Urban Legend – Nowhere Else Than Right Now</title>
+  <meta name="generator" content="Jekyll" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -63,7 +64,7 @@
   </header>
 
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UC04RNG3Div5Z0JNbt58f8lw" 
+    <iframe src="https://www.youtube.com/embed/6xY3JzZKBc0" 
             frameborder="0" allowfullscreen></iframe>
   </div>
 
