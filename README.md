@@ -1,94 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Urban Legend</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #1a1a1a;
-            color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-            color: #ff6347;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            padding: 10px;
-            background-color: #444;
-        }
-        nav a {
-            color: #f0f0f0;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-        }
-        nav a:hover {
-            color: #ff6347;
-        }
-        .content {
-            padding: 20px;
-            text-align: center;
-        }
-        .social-links a {
-            color: #f0f0f0;
-            text-decoration: none;
-            margin: 0 10px;
-            font-size: 1.5em;
-        }
-        .social-links a:hover {
-            color: #ff6347;
-        }
-        footer {
-            background-color: #333;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Urban Legend – Music Videos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 2rem 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      margin: 1rem auto;
+      max-width: 800px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem auto;
+    }
+    .links a {
+      background: #222;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .links a:hover {
+      background: #444;
+    }
+    footer {
+      margin: 3rem 0 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>The Urban Legend</h1>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#music">Music</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="content">
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Welcome to the official page of The Urban Legend. We are a band that blends urban vibes with legendary sounds. Stay tuned for our latest updates and music releases!</p>
-        </section>
-        <section id="music">
-            <h2>Our Music</h2>
-            <p>Check out our latest tracks and albums. We promise you won't be disappointed!</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>For bookings and inquiries, email us at <a href="mailto:info@theurbanlegend.band">info@theurbanlegend.band</a></p>
-        </section>
-        <div class="social-links">
-            <a href="https://www.instagram.com/theurbanlegend.band/" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com/profile.php?id=61568302346979" target="_blank">Facebook</a>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2025 The Urban Legend. All rights reserved.</p>
-    </footer>
+  <header>
+    <h1>The Urban Legend</h1>
+    <p>Nowhere Else Than Right Now</p>
+  </header>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UC04RNG3Div5Z0JNbt58f8lw" 
+            frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="links">
+    <a href="https://open.spotify.com/album/4LRniq0kPHot75qGLooJ2d?si=0o61-C7sToWzsRo-Ky93aw" target="_blank">Spotify</a>
+    <a href="https://music.apple.com/us/album/nowhere-else-than-right-now/1834043494" target="_blank">Apple Music</a>
+    <a href="https://tidal.com/browse/album/454919897" target="_blank">Tidal</a>
+    <a href="https://www.youtube.com/channel/UC04RNG3Div5Z0JNbt58f8lw" target="_blank">YouTube</a>
+    <a href="https://www.instagram.com/theurbanlegend.band/" target="_blank">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=61568302346979" target="_blank">Facebook</a>
+  </div>
+
+  <footer>
+    <p>© 2025 The Urban Legend. All rights reserved.</p>
+  </footer>
 </body>
 </html>
